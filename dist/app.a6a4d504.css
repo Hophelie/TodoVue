@@ -1,0 +1,18 @@
+.task[data-v-08788d]{
+    margin:12px;
+}
+.task--false[data-v-08788d] {
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+.list-item[data-v-08788d] {
+  display: inline-block;
+  margin-right: 10px;
+}
+.list-enter-active[data-v-08788d], .list-leave-active[data-v-08788d] {
+  transition: all 1s;
+}
+.list-enter[data-v-08788d], .list-leave-to[data-v-08788d]{
+  opacity: 0;
+  transform: translateY(30px);
+}
